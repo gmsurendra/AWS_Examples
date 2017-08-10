@@ -24,7 +24,7 @@ public class convertCsvToOrc {
 		// download winutils.exe from hadoop git, create a hadoop folder
 		// and create a bin within that then place winutils.exe in there.
 		// Replace second argument with your location of that folder.
-		System.setProperty("hadoop.home.dir", "C:/Hadoop/bin");
+		System.setProperty("hadoop.home.dir", "C:/Hadoop");
 
 		convertCsvToOrc test = new convertCsvToOrc();
 
